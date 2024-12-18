@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Self-Intro AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Super Self-Intro AI</h1>
+        <p>Fill in your details below, and let the AI create a stunning self-introduction for you!</p>
+        
+        <div class="form">
+            <input type="text" id="name" placeholder="Enter your name" />
+            <input type="text" id="profession" placeholder="Your Location (e.g., Chennai)" />
+            <textarea id="skills" placeholder="Your profession (e.g., UI/UX Designer)"></textarea>
+            <button id="generateIntro">Generate Intro</button>
+        </div>
+        
+        <div class="intro-card" id="introCard" style="display: none;">
+            <h2 id="introName"></h2>
+            <h3 id="introProfession"></h3>
+            <p id="introSkills"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
